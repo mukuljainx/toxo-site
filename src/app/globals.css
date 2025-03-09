@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main-content {
+  scroll-snap-type: y mandatory;
+  overflow: scroll;
+}
+
+.slide {
+  margin-bottom: 6rem;
+}
